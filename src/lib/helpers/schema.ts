@@ -37,7 +37,7 @@ export const postSchema = z.object({
   post: z
     .string()
     .min(10, { message: "entry is too short" })
-    .max(400, { message: "entry is too long" }),
+    .max(800, { message: "entry is too long" }),
 });
 export type PostsValues = z.infer<typeof postSchema>;
 
@@ -45,6 +45,6 @@ export const commentSchema = z.object({
   comment: z
     .string()
     .min(10, { message: "entry is too short" })
-    .max(400, { message: "entry is too long" }),
+    .max(800, { message: "entry is too long" }),
 });
 export type CommentsValues = z.infer<typeof commentSchema>;
