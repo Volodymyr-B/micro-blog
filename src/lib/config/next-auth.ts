@@ -20,14 +20,14 @@ export const authOptions: NextAuthOptions = {
         if (!user) {
           return null;
         }
-        // const isPasswordValid = await verifyPassword(
-        //   credentials.password,
-        //   user.password
-        // );
+        const isPasswordValid = await verifyPassword(
+          credentials.password,
+          user.password
+        );
 
-        // if (!isPasswordValid) {
-        //   return null;
-        // }
+        if (!isPasswordValid) {
+          return null;
+        }
 
         return { name: user.name, email: user.email } as User;
       },
