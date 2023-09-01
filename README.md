@@ -26,3 +26,7 @@
 - [Axios](https://axios-http.com)
 - [React-Hot-Toast](https://react-hot-toast.com/)
 - [Zod](https://zod.dev/)
+![blog-home](https://github.com/Volodymyr-B/micro-blog/assets/112543824/d1da1e79-4df3-4553-aa2c-d9fefe7e1505)
+![blog-auth](https://github.com/Volodymyr-B/micro-blog/assets/112543824/c26c2a38-3984-4ef2-b6b6-a643a4a0e4d8)
+![blog-commentator](https://github.com/Volodymyr-B/micro-blog/assets/112543824/03310753-0511-4e1d-a055-cdbbe72bb40b)
+
